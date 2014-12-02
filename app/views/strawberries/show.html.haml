@@ -1,0 +1,10 @@
+%p#notice= notice
+%p
+  %strong Title:
+  = @strawberry.title
+%p
+  %strong Body:
+  = @strawberry.body
+= link_to 'Edit', edit_strawberry_path(@strawberry)
+
+#{link_to 'Back', strawberries_path}
